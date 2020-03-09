@@ -3,3 +3,8 @@
 ################################################################################
 
 *.dtbcache
+/.vs/Jlion.NetCore.Identity.Demo/v16/Server/sqlite3
+/Jlion.NetCore.Identity/bin/Debug/netstandard2.0
+/Jlion.NetCore.Identity/obj
+/Jlion.NetCore.Identity.Service/bin/Debug/netcoreapp3.1
+/Jlion.NetCore.Identity.UserApiService/bin/Debug/netcoreapp3.1
