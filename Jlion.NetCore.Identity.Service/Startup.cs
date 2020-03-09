@@ -27,12 +27,22 @@ namespace Jlion.NetCore.Identity.Service
         {
             services.AddControllers();
 
+            #region 内存方式
             services.AddIdentityServer()
                 .AddDeveloperSigningCredential()
                 .AddInMemoryApiResources(OAuthMemoryData.GetApiResources())
                 .AddInMemoryClients(OAuthMemoryData.GetClients())
-                .AddResourceOwnerValidator<ResourceOwnerPasswordValidator>();
-            //.AddTestUsers(OAuthMemoryData.GetTestUsers());
+                .AddTestUsers(OAuthMemoryData.GetTestUsers());
+            #endregion
+
+            #region 数据库存储方式
+            //services.AddIdentityServer()
+            //    .AddDeveloperSigningCredential()
+            //    .AddInMemoryApiResources(OAuthMemoryData.GetApiResources())
+            //    //.AddInMemoryClients(OAuthMemoryData.GetClients())
+            //    .AddClientStore<ClientStore>()
+            //    .AddResourceOwnerValidator<ResourceOwnerPasswordValidator>();
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

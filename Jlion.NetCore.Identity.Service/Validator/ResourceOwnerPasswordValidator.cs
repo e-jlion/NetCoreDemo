@@ -47,7 +47,12 @@ namespace Jlion.NetCore.Identity.Service.Validator
         /// <returns></returns>
         private async Task<List<Claim>> ValidateUserAsync(string loginName, string password)
         {
+            //TODO 这里可以通过用户名和密码到数据库中去验证是否存在，
+            // 以及角色相关信息，我这里还是使用内存中已经存在的用户和密码
             var user = OAuthMemoryData.GetTestUsers();
+
+            if (user == null)
+                throw new Exception("登录失败，用户名和密码不正确");
 
             return new List<Claim>()
             {
