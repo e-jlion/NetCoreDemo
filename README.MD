@@ -9,4 +9,10 @@
 - Overt.Core.Grpc 开源微服务框架实践
 - Overt.Core.Data Dapper 开源框架的实践
 - DDD 领域驱动的实践
+- 消息队列
+- .Net Core 虚拟化
+- Redis 
+- Mongodb
+- ES
+- K8S 
 - 等其他实践技术，待定
