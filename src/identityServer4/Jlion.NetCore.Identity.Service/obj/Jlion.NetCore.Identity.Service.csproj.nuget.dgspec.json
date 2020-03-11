@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\demo\\identityServer4\\Jlion.NetCore.Identity.Service\\Jlion.NetCore.Identity.Service.csproj": {}
+    "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity.Service\\Jlion.NetCore.Identity.Service.csproj": {}
   },
   "projects": {
-    "D:\\demo\\identityServer4\\Jlion.NetCore.Identity.Service\\Jlion.NetCore.Identity.Service.csproj": {
+    "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity.Service\\Jlion.NetCore.Identity.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\demo\\identityServer4\\Jlion.NetCore.Identity.Service\\Jlion.NetCore.Identity.Service.csproj",
+        "projectUniqueName": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity.Service\\Jlion.NetCore.Identity.Service.csproj",
         "projectName": "Jlion.NetCore.Identity.Service",
-        "projectPath": "D:\\demo\\identityServer4\\Jlion.NetCore.Identity.Service\\Jlion.NetCore.Identity.Service.csproj",
+        "projectPath": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity.Service\\Jlion.NetCore.Identity.Service.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\demo\\identityServer4\\Jlion.NetCore.Identity.Service\\obj\\",
+        "outputPath": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\demo\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj": {
-                "projectPath": "D:\\demo\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj"
+              "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj": {
+                "projectPath": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "D:\\demo\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj": {
+    "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\demo\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj",
+        "projectUniqueName": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj",
         "projectName": "Jlion.NetCore.Identity",
-        "projectPath": "D:\\demo\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj",
+        "projectPath": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\demo\\identityServer4\\Jlion.NetCore.Identity\\obj\\",
+        "outputPath": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
