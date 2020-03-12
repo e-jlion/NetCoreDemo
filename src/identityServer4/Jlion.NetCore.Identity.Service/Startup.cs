@@ -42,7 +42,7 @@ namespace Jlion.NetCore.Identity.Service
                 //.AddInMemoryClients(OAuthMemoryData.GetClients())
                 .AddClientStore<ClientStore>()
                 .AddResourceOwnerValidator<ResourceOwnerPasswordValidator>()
-                .AddExtensionGrantValidator<WeiXinOpenGrantValidator>();
+                .AddExtensionGrantValidator<WeiXinOpenGrantValidator>();//添加微信端自定义方式的验证
             #endregion
 
             #region 单点登录方式 Demo
