@@ -19,7 +19,7 @@ namespace Jlion.NetCore.Identity.Service.Validator
         {
             try
             {
-                #region 参数获取
+                #region 参数获取 直接把授权后的openId 拿过来授权是不安全的，这里仅仅是一个Demo
                 var openId = context.Request.Raw[ParamConstants.OpenId];
                 var unionId = context.Request.Raw[ParamConstants.UnionId];
                 var userName = context.Request.Raw[ParamConstants.UserName];
