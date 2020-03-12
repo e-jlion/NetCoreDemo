@@ -1,5 +1,6 @@
 ﻿using IdentityServer4.Models;
 using IdentityServer4.Test;
+using Jlion.NetCore.Identity.Constants;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,11 +35,13 @@ namespace Jlion.NetCore.Identity.Service
                     AllowedGrantTypes = new List<string>()
                     {
                         GrantTypes.ResourceOwnerPassword.FirstOrDefault(),//Resource Owner Password模式
+                        GrantTypeConstants.ResourceWeixinOpen,
                     },
                     ClientSecrets = {new Secret(OAuthConfig.UserApi.Secret.Sha256()) },
                     AllowedScopes= {OAuthConfig.UserApi.ApiName},
                     AccessTokenLifetime = OAuthConfig.ExpireIn,
                 },
+                
             };
         }
 
@@ -55,6 +58,20 @@ namespace Jlion.NetCore.Identity.Service
                      SubjectId = "1",
                      Username = "test",
                      Password = "123456"
+                },
+            };
+        }
+
+        /// <summary>
+        /// 微信openId 的测试用户
+        /// </summary>
+        /// <returns></returns>
+        public static List<TestUser> GetWeiXinOpenIdTestUsers()
+        {
+            return new List<TestUser>
+            {
+                new TestUser(){ 
+                  SubjectId="owerhwroogs3902openId",
                 }
             };
         }
