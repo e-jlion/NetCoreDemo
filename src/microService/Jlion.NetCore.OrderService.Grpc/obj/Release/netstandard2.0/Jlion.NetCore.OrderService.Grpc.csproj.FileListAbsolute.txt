@@ -1,0 +1,7 @@
+D:\demo\blogGithub\src\microService\Jlion.NetCore.OrderService.Grpc\bin\Release\netstandard2.0\Jlion.NetCore.OrderService.Grpc.deps.json
+D:\demo\blogGithub\src\microService\Jlion.NetCore.OrderService.Grpc\bin\Release\netstandard2.0\Jlion.NetCore.OrderService.Grpc.dll
+D:\demo\blogGithub\src\microService\Jlion.NetCore.OrderService.Grpc\bin\Release\netstandard2.0\Jlion.NetCore.OrderService.Grpc.pdb
+D:\demo\blogGithub\src\microService\Jlion.NetCore.OrderService.Grpc\obj\Release\netstandard2.0\Jlion.NetCore.OrderService.Grpc.AssemblyInfoInputs.cache
+D:\demo\blogGithub\src\microService\Jlion.NetCore.OrderService.Grpc\obj\Release\netstandard2.0\Jlion.NetCore.OrderService.Grpc.AssemblyInfo.cs
+D:\demo\blogGithub\src\microService\Jlion.NetCore.OrderService.Grpc\obj\Release\netstandard2.0\Jlion.NetCore.OrderService.Grpc.dll
+D:\demo\blogGithub\src\microService\Jlion.NetCore.OrderService.Grpc\obj\Release\netstandard2.0\Jlion.NetCore.OrderService.Grpc.pdb

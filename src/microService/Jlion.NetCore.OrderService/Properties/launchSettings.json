@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Jlion.NetCore.OrderService": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

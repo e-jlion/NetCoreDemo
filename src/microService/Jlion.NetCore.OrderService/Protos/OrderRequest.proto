@@ -1,0 +1,25 @@
+﻿syntax = "proto3";
+package Jlion.NetCore.OrderService.Service.Grpc;
+
+
+//定义订单查找参数实体
+message OrderSearchRequest{
+	string OrderId = 1; //定义订单ID
+	string Name = 2;
+}
+
+//定义订单实体
+message OrderRepsonse{
+	string OrderId = 1;
+	string Name = 2;
+	double Amount = 3;
+	int32 Count = 4;
+	string Time = 5;
+}
+
+//定义订单查找列表
+message OrderSearchResponse{
+	bool Success = 1;
+	string ErrorMsg = 2;
+	repeated OrderRepsonse Data = 3;
+}

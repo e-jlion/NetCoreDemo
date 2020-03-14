@@ -13,6 +13,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jlion.NetCore.Identity.Serv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jlion.NetCore.Identity.UserApiService", "src\identityServer4\Jlion.NetCore.Identity.UserApiService\Jlion.NetCore.Identity.UserApiService.csproj", "{96D9F63F-7038-4A8C-B7BB-3262BE7FE128}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservice", "Microservice", "{33AA8D43-0134-4E4A-882C-C1445B6E5309}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jlion.NetCore.OrderService", "src\microService\Jlion.NetCore.OrderService\Jlion.NetCore.OrderService.csproj", "{5C54C1A4-10A2-4A92-A21C-8B107E022885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jlion.NetCore.OrderService.Grpc", "src\microService\Jlion.NetCore.OrderService.Grpc\Jlion.NetCore.OrderService.Grpc.csproj", "{50A468B9-1470-477F-9E54-65E9F37EE2AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jlion.NetCore.OrderApiService", "src\microService\Jlion.NetCore.OrderApiService\Jlion.NetCore.OrderApiService.csproj", "{40436C8E-5258-437B-B944-62FC374502DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +39,18 @@ Global
 		{96D9F63F-7038-4A8C-B7BB-3262BE7FE128}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96D9F63F-7038-4A8C-B7BB-3262BE7FE128}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96D9F63F-7038-4A8C-B7BB-3262BE7FE128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C54C1A4-10A2-4A92-A21C-8B107E022885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C54C1A4-10A2-4A92-A21C-8B107E022885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C54C1A4-10A2-4A92-A21C-8B107E022885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C54C1A4-10A2-4A92-A21C-8B107E022885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A468B9-1470-477F-9E54-65E9F37EE2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A468B9-1470-477F-9E54-65E9F37EE2AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A468B9-1470-477F-9E54-65E9F37EE2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A468B9-1470-477F-9E54-65E9F37EE2AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40436C8E-5258-437B-B944-62FC374502DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40436C8E-5258-437B-B944-62FC374502DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40436C8E-5258-437B-B944-62FC374502DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40436C8E-5258-437B-B944-62FC374502DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +60,10 @@ Global
 		{5A3EA206-A49F-439A-A2DB-8A11794C4561} = {80D510BD-F34F-4F1E-BA84-6B64AF9492E5}
 		{8B93914C-1EC3-4763-8D21-E2F8C72A91EF} = {80D510BD-F34F-4F1E-BA84-6B64AF9492E5}
 		{96D9F63F-7038-4A8C-B7BB-3262BE7FE128} = {80D510BD-F34F-4F1E-BA84-6B64AF9492E5}
+		{33AA8D43-0134-4E4A-882C-C1445B6E5309} = {DA1C2812-2439-4C87-BD6F-71F228182A48}
+		{5C54C1A4-10A2-4A92-A21C-8B107E022885} = {33AA8D43-0134-4E4A-882C-C1445B6E5309}
+		{50A468B9-1470-477F-9E54-65E9F37EE2AE} = {33AA8D43-0134-4E4A-882C-C1445B6E5309}
+		{40436C8E-5258-437B-B944-62FC374502DE} = {33AA8D43-0134-4E4A-882C-C1445B6E5309}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {538FC22F-586C-43BF-9F23-F4409A67CB6F}

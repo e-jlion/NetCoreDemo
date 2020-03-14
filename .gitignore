@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/Jlion.NetCore.Demo/v16/Server/sqlite3
+/src/microService/Jlion.NetCore.OrderApiService/bin/Debug/netcoreapp3.1
+/src/microService/Jlion.NetCore.OrderService/bin
+/src/microService/Jlion.NetCore.OrderService.Grpc/bin

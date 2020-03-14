@@ -1,0 +1,19 @@
+{
+	"GrpcClient": {
+		"Service": {
+			"Name": "JlionOrderService",
+			"MaxRetry": 0,
+			"Discovery": {
+				//"Consul": {
+				//	"Path": "dllconfigs/consulsettings.json"
+				//}
+				"EndPoints": [
+					{
+						"Host": "127.0.0.1",
+						"Port": 10001
+					}
+				]
+			}
+		}
+	}
+}

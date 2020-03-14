@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+package Jlion.NetCore.OrderService.Service.Grpc;
+
+import "OrderRequest.proto";
+
+service JlionOrderService{
+	rpc Order_Search(OrderSearchRequest) returns (OrderSearchResponse){} 
+}
