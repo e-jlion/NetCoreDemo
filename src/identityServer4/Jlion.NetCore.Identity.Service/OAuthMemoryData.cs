@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using static IdentityServer4.IdentityServerConstants;
 
 namespace Jlion.NetCore.Identity.Service
 {
@@ -38,10 +39,14 @@ namespace Jlion.NetCore.Identity.Service
                         GrantTypeConstants.ResourceWeixinOpen,
                     },
                     ClientSecrets = {new Secret(OAuthConfig.UserApi.Secret.Sha256()) },
-                    AllowedScopes= {OAuthConfig.UserApi.ApiName},
+                    AllowOfflineAccess = true,//如果要获取refresh_tokens ,必须把AllowOfflineAccess设置为true
+                    AllowedScopes= {
+                        OAuthConfig.UserApi.ApiName,
+                        StandardScopes.OfflineAccess,
+                    },
                     AccessTokenLifetime = OAuthConfig.ExpireIn,
                 },
-                
+
             };
         }
 
@@ -70,7 +75,7 @@ namespace Jlion.NetCore.Identity.Service
         {
             return new List<TestUser>
             {
-                new TestUser(){ 
+                new TestUser(){
                   SubjectId="owerhwroogs3902openId",
                 }
             };
