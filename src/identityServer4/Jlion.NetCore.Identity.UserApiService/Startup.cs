@@ -46,7 +46,7 @@ namespace Jlion.NetCore.Identity.UserApiService
                 app.UseDeveloperExceptionPage();
             }
 
-            //app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
 
 
             app.UseRouting();

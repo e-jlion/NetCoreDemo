@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\demo\\blogGithub\\src\\microService\\Jlion.NetCore.OrderApiService\\Jlion.NetCore.OrderApiService.csproj": {}
+    "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderApiService\\Jlion.NetCore.OrderApiService.csproj": {}
   },
   "projects": {
-    "D:\\demo\\blogGithub\\src\\microService\\Jlion.NetCore.OrderApiService\\Jlion.NetCore.OrderApiService.csproj": {
+    "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderApiService\\Jlion.NetCore.OrderApiService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\demo\\blogGithub\\src\\microService\\Jlion.NetCore.OrderApiService\\Jlion.NetCore.OrderApiService.csproj",
+        "projectUniqueName": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderApiService\\Jlion.NetCore.OrderApiService.csproj",
         "projectName": "Jlion.NetCore.OrderApiService",
-        "projectPath": "D:\\demo\\blogGithub\\src\\microService\\Jlion.NetCore.OrderApiService\\Jlion.NetCore.OrderApiService.csproj",
+        "projectPath": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderApiService\\Jlion.NetCore.OrderApiService.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\demo\\blogGithub\\src\\microService\\Jlion.NetCore.OrderApiService\\obj\\",
+        "outputPath": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderApiService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

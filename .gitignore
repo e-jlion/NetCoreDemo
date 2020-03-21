@@ -6,3 +6,5 @@
 /src/microService/Jlion.NetCore.OrderApiService/bin/Debug/netcoreapp3.1
 /src/microService/Jlion.NetCore.OrderService/bin
 /src/microService/Jlion.NetCore.OrderService.Grpc/bin
+/.vs/Jlion.NetCore.Demo/DesignTimeBuild
+/.vs/Jlion.NetCore.Demo/v15

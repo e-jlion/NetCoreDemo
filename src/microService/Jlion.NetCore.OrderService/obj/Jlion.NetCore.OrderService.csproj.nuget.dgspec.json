@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\demo\\blogGithub\\src\\microService\\Jlion.NetCore.OrderService\\Jlion.NetCore.OrderService.csproj": {}
+    "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderService\\Jlion.NetCore.OrderService.csproj": {}
   },
   "projects": {
-    "D:\\demo\\blogGithub\\src\\microService\\Jlion.NetCore.OrderService.Grpc\\Jlion.NetCore.OrderService.Grpc.csproj": {
+    "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderService.Grpc\\Jlion.NetCore.OrderService.Grpc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\demo\\blogGithub\\src\\microService\\Jlion.NetCore.OrderService.Grpc\\Jlion.NetCore.OrderService.Grpc.csproj",
+        "projectUniqueName": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderService.Grpc\\Jlion.NetCore.OrderService.Grpc.csproj",
         "projectName": "Jlion.NetCore.OrderService.Grpc",
-        "projectPath": "D:\\demo\\blogGithub\\src\\microService\\Jlion.NetCore.OrderService.Grpc\\Jlion.NetCore.OrderService.Grpc.csproj",
+        "projectPath": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderService.Grpc\\Jlion.NetCore.OrderService.Grpc.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\demo\\blogGithub\\src\\microService\\Jlion.NetCore.OrderService.Grpc\\obj\\",
+        "outputPath": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderService.Grpc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -63,18 +63,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\demo\\blogGithub\\src\\microService\\Jlion.NetCore.OrderService\\Jlion.NetCore.OrderService.csproj": {
+    "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderService\\Jlion.NetCore.OrderService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\demo\\blogGithub\\src\\microService\\Jlion.NetCore.OrderService\\Jlion.NetCore.OrderService.csproj",
+        "projectUniqueName": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderService\\Jlion.NetCore.OrderService.csproj",
         "projectName": "Jlion.NetCore.OrderService",
-        "projectPath": "D:\\demo\\blogGithub\\src\\microService\\Jlion.NetCore.OrderService\\Jlion.NetCore.OrderService.csproj",
+        "projectPath": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderService\\Jlion.NetCore.OrderService.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\demo\\blogGithub\\src\\microService\\Jlion.NetCore.OrderService\\obj\\",
+        "outputPath": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -94,8 +94,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\demo\\blogGithub\\src\\microService\\Jlion.NetCore.OrderService.Grpc\\Jlion.NetCore.OrderService.Grpc.csproj": {
-                "projectPath": "D:\\demo\\blogGithub\\src\\microService\\Jlion.NetCore.OrderService.Grpc\\Jlion.NetCore.OrderService.Grpc.csproj"
+              "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderService.Grpc\\Jlion.NetCore.OrderService.Grpc.csproj": {
+                "projectPath": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderService.Grpc\\Jlion.NetCore.OrderService.Grpc.csproj"
               }
             }
           }
@@ -137,7 +137,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

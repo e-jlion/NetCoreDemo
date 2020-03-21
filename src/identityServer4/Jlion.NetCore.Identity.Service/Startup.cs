@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Jlion.NetCore.Identity.Service.Validator;
+using Jlion.NetCore.Identity.UserApiService;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -51,7 +52,9 @@ namespace Jlion.NetCore.Identity.Service
                 //.AddInMemoryClients(OAuthMemoryData.GetClients())
                 .AddClientStore<ClientStore>()
                 .AddResourceOwnerValidator<ResourceOwnerPasswordValidator>()
-                .AddExtensionGrantValidator<WeiXinOpenGrantValidator>();//添加微信端自定义方式的验证
+                .AddExtensionGrantValidator<WeiXinOpenGrantValidator>()
+                .AddProfileService<UserProfileService>();//添加微信端自定义方式的验证
+              
             #endregion
 
             #region 单点登录方式 Demo
@@ -66,7 +69,7 @@ namespace Jlion.NetCore.Identity.Service
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            //app.UseCookiePolicy();
             app.UseIdentityServer();
 
             app.UseRouting();
