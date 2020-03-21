@@ -54,7 +54,7 @@ namespace Jlion.NetCore.Identity.Service
                 .AddResourceOwnerValidator<ResourceOwnerPasswordValidator>()
                 .AddExtensionGrantValidator<WeiXinOpenGrantValidator>()
                 .AddProfileService<UserProfileService>();//添加微信端自定义方式的验证
-              
+
             #endregion
 
             #region 单点登录方式 Demo
