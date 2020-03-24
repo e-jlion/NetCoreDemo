@@ -34,11 +34,5 @@ namespace Jlion.NetCore.Identity.UserApiService.Controllers
                 merchantId = User.MerchantId(),
             };
         }
-
-        [HttpGet("{id}")]
-        public int  Get(int id)
-        {
-            return id;
-        }
     }
 }

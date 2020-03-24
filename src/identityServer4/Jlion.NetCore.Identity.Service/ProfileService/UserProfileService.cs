@@ -9,19 +9,27 @@ namespace Jlion.NetCore.Identity.UserApiService
 {
     public class UserProfileService : IProfileService
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="context"></param>
+        /// <returns></returns>
         public async Task GetProfileDataAsync(ProfileDataRequestContext context)
         {
             try
             {
-                //depending on the scope accessing the user data.
                 var claims = context.Subject.Claims.ToList();
 
-                //set issued claims to return
                 context.IssuedClaims = claims.ToList();
             }
             catch { }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="context"></param>
+        /// <returns></returns>
         public async Task IsActiveAsync(IsActiveContext context)
         {
             context.IsActive = true;

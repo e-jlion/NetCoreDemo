@@ -1,4 +1,5 @@
-﻿using IdentityServer4.Validation;
+﻿using IdentityModel;
+using IdentityServer4.Validation;
 using Jlion.NetCore.Identity.Enums;
 using System;
 using System.Collections.Generic;
@@ -57,6 +58,7 @@ namespace Jlion.NetCore.Identity.Service.Validator
 
             return new List<Claim>()
             {
+                
                 new Claim(ClaimTypes.Name, $"{loginName}"),
                 new Claim(EnumUserClaim.DisplayName.ToString(),"测试用户"),
                 new Claim(EnumUserClaim.UserId.ToString(),"10001"),

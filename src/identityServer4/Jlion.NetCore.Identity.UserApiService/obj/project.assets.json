@@ -501,11 +501,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\identityServer4\\Jlion.NetCore.Identity.UserApiService\\Jlion.NetCore.Identity.UserApiService.csproj",
+      "projectUniqueName": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity.UserApiService\\Jlion.NetCore.Identity.UserApiService.csproj",
       "projectName": "Jlion.NetCore.Identity.UserApiService",
-      "projectPath": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\identityServer4\\Jlion.NetCore.Identity.UserApiService\\Jlion.NetCore.Identity.UserApiService.csproj",
+      "projectPath": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity.UserApiService\\Jlion.NetCore.Identity.UserApiService.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\identityServer4\\Jlion.NetCore.Identity.UserApiService\\obj\\",
+      "outputPath": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity.UserApiService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -525,8 +525,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj": {
-              "projectPath": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj"
+            "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj": {
+              "projectPath": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj"
             }
           }
         }
@@ -563,7 +563,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\identityServer4\\Jlion.NetCore.Identity.Service\\Jlion.NetCore.Identity.Service.csproj": {}
+    "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity.Service\\Jlion.NetCore.Identity.Service.csproj": {}
   },
   "projects": {
-    "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\identityServer4\\Jlion.NetCore.Identity.Service\\Jlion.NetCore.Identity.Service.csproj": {
+    "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity.Service\\Jlion.NetCore.Identity.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\identityServer4\\Jlion.NetCore.Identity.Service\\Jlion.NetCore.Identity.Service.csproj",
+        "projectUniqueName": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity.Service\\Jlion.NetCore.Identity.Service.csproj",
         "projectName": "Jlion.NetCore.Identity.Service",
-        "projectPath": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\identityServer4\\Jlion.NetCore.Identity.Service\\Jlion.NetCore.Identity.Service.csproj",
+        "projectPath": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity.Service\\Jlion.NetCore.Identity.Service.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\identityServer4\\Jlion.NetCore.Identity.Service\\obj\\",
+        "outputPath": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj": {
-                "projectPath": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj"
+              "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj": {
+                "projectPath": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj"
               }
             }
           }
@@ -69,18 +69,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj": {
+    "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj",
+        "projectUniqueName": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj",
         "projectName": "Jlion.NetCore.Identity",
-        "projectPath": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj",
+        "projectPath": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity\\Jlion.NetCore.Identity.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\identityServer4\\Jlion.NetCore.Identity\\obj\\",
+        "outputPath": "D:\\demo\\blogGithub\\src\\identityServer4\\Jlion.NetCore.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -128,7 +128,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
