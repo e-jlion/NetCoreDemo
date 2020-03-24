@@ -1,7 +1,7 @@
 {
   "ConsulServer": {
     "Service": {
-      "Address": "http://192.168.18.136:8500/" // Consul 服务发现配置地址
+      "Address": "http://127.0.0.1:8500/" // Consul 服务发现配置地址
     }
   }
 }
