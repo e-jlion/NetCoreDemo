@@ -1,4 +1,6 @@
-### IdentityServerDemo 介绍
+### NetCoreDemo介绍
+
+IdentityServerDemo 更名为NetCoreDemo，由于之前该仓库打算同步Ids4 技术相关系列文章的Demo，后面决定该仓库写NetCore 相关技术实践并和本人博客同步的系列文章，故已经更名为NetCoreDemo
 
 本项目主要是同步我的博客进行一系列实践的Demo例子；后续会更新各种实践代码，包括以下技术模块
 
