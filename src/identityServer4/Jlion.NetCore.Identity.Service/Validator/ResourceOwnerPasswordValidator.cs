@@ -47,7 +47,9 @@ namespace Jlion.NetCore.Identity.Service.Validator
         /// <param name="loginName"></param>
         /// <param name="password"></param>
         /// <returns></returns>
+#pragma warning disable CS1998 // 此异步方法缺少 "await" 运算符，将以同步方式运行。请考虑使用 "await" 运算符等待非阻止的 API 调用，或者使用 "await Task.Run(...)" 在后台线程上执行占用大量 CPU 的工作。
         private async Task<List<Claim>> ValidateUserAsync(string loginName, string password)
+#pragma warning restore CS1998 // 此异步方法缺少 "await" 运算符，将以同步方式运行。请考虑使用 "await" 运算符等待非阻止的 API 调用，或者使用 "await Task.Run(...)" 在后台线程上执行占用大量 CPU 的工作。
         {
             //TODO 这里可以通过用户名和密码到数据库中去验证是否存在，
             // 以及角色相关信息，我这里还是使用内存中已经存在的用户和密码

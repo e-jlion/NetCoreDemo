@@ -56,7 +56,9 @@ namespace Jlion.NetCore.Identity.Service.Validator
         /// <param name="loginName"></param>
         /// <param name="password"></param>
         /// <returns></returns>
+#pragma warning disable CS1998 // 此异步方法缺少 "await" 运算符，将以同步方式运行。请考虑使用 "await" 运算符等待非阻止的 API 调用，或者使用 "await Task.Run(...)" 在后台线程上执行占用大量 CPU 的工作。
         private async Task<List<Claim>> ValidateUserAsync(string openId, string unionId)
+#pragma warning restore CS1998 // 此异步方法缺少 "await" 运算符，将以同步方式运行。请考虑使用 "await" 运算符等待非阻止的 API 调用，或者使用 "await Task.Run(...)" 在后台线程上执行占用大量 CPU 的工作。
         {
             //TODO 这里可以通过openId 和unionId 来查询用户信息，我这里为了方便测试还是直接写测试的openId 相关信息用户
             var user = OAuthMemoryData.GetWeiXinOpenIdTestUsers();
