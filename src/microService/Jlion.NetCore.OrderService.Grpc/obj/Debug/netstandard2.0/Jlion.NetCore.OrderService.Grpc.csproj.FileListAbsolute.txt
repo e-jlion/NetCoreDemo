@@ -6,3 +6,12 @@ D:\demo\blogGithub\src\microService\Jlion.NetCore.OrderService.Grpc\obj\Debug\ne
 D:\demo\blogGithub\src\microService\Jlion.NetCore.OrderService.Grpc\bin\Debug\netstandard2.0\Jlion.NetCore.OrderService.Grpc.pdb
 D:\demo\blogGithub\src\microService\Jlion.NetCore.OrderService.Grpc\obj\Debug\netstandard2.0\Jlion.NetCore.OrderService.Grpc.dll
 D:\demo\blogGithub\src\microService\Jlion.NetCore.OrderService.Grpc\obj\Debug\netstandard2.0\Jlion.NetCore.OrderService.Grpc.pdb
+D:\github\0-group-demo\IdentityServerDemo\src\microService\Jlion.NetCore.OrderService.Grpc\bin\Debug\netstandard2.0\Jlion.NetCore.OrderService.Grpc.deps.json
+D:\github\0-group-demo\IdentityServerDemo\src\microService\Jlion.NetCore.OrderService.Grpc\bin\Debug\netstandard2.0\Jlion.NetCore.OrderService.Grpc.dll
+D:\github\0-group-demo\IdentityServerDemo\src\microService\Jlion.NetCore.OrderService.Grpc\bin\Debug\netstandard2.0\Jlion.NetCore.OrderService.Grpc.pdb
+D:\github\0-group-demo\IdentityServerDemo\src\microService\Jlion.NetCore.OrderService.Grpc\obj\Debug\netstandard2.0\Jlion.NetCore.OrderService.Grpc.csprojAssemblyReference.cache
+D:\github\0-group-demo\IdentityServerDemo\src\microService\Jlion.NetCore.OrderService.Grpc\obj\Debug\netstandard2.0\Jlion.NetCore.OrderService.Grpc.csproj.CoreCompileInputs.cache
+D:\github\0-group-demo\IdentityServerDemo\src\microService\Jlion.NetCore.OrderService.Grpc\obj\Debug\netstandard2.0\Jlion.NetCore.OrderService.Grpc.AssemblyInfoInputs.cache
+D:\github\0-group-demo\IdentityServerDemo\src\microService\Jlion.NetCore.OrderService.Grpc\obj\Debug\netstandard2.0\Jlion.NetCore.OrderService.Grpc.AssemblyInfo.cs
+D:\github\0-group-demo\IdentityServerDemo\src\microService\Jlion.NetCore.OrderService.Grpc\obj\Debug\netstandard2.0\Jlion.NetCore.OrderService.Grpc.dll
+D:\github\0-group-demo\IdentityServerDemo\src\microService\Jlion.NetCore.OrderService.Grpc\obj\Debug\netstandard2.0\Jlion.NetCore.OrderService.Grpc.pdb

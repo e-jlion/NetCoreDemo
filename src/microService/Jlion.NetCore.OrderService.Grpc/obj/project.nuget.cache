@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QzIA/3uTgnAqKepXIcPz+bOaGJtaeOshgMC0YivCesQ3FYMucefwmoSQfs5FyFuEqOr2ki0nFEtlbz3GEZrB1w==",
+  "dgSpecHash": "0JV8VF/4GArzBDgcmgarb6Xcs5pOR+C1qaw0zLNsXdXhzyDQlIC32FAbG6vIp6wTQxE1ZKqcxFQ3IZv79ww69g==",
   "success": true,
   "projectFilePath": "D:\\github\\0-group-demo\\IdentityServerDemo\\src\\microService\\Jlion.NetCore.OrderService.Grpc\\Jlion.NetCore.OrderService.Grpc.csproj",
   "expectedPackageFiles": [
@@ -28,7 +28,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.primitives\\4.0.1\\microsoft.win32.primitives.4.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\10.0.2\\newtonsoft.json.10.0.2.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\overt.core.grpc\\1.0.3\\overt.core.grpc.1.0.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\overt.core.grpc\\1.0.3.1\\overt.core.grpc.1.0.3.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

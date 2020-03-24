@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Overt.Core.Grpc" Version="1.0.3" />
+    <PackageReference Include="Overt.Core.Grpc" Version="1.0.3.1" />
   </ItemGroup>
 
 </Project>

@@ -558,7 +558,7 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
-      "Overt.Core.Grpc/1.0.3": {
+      "Overt.Core.Grpc/1.0.3.1": {
         "type": "package",
         "dependencies": {
           "Consul": "0.7.2.6",
@@ -1976,7 +1976,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Overt.Core.Grpc": "1.0.3"
+          "Overt.Core.Grpc": "1.0.3.1"
         },
         "compile": {
           "bin/placeholder/Jlion.NetCore.OrderService.Grpc.dll": {}
@@ -2705,17 +2705,17 @@
         "tools/install.ps1"
       ]
     },
-    "Overt.Core.Grpc/1.0.3": {
-      "sha512": "obPzAGNdx472lK3IBCz5UjDZJ72Lm1v+dXOj5h16VAMYaNa3t2EHFhRLtGzpWIdAbsNM/Bh9J9lv/iKeEDgpNw==",
+    "Overt.Core.Grpc/1.0.3.1": {
+      "sha512": "eGAXfNVb263K6ZgFporGs49Q4/KBcXYwNtRQwxMsarLn6SGW1DqVYkucIet++IMI5X7KjTZtgqQp/7S/NHXeSA==",
       "type": "package",
-      "path": "overt.core.grpc/1.0.3",
+      "path": "overt.core.grpc/1.0.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net45/Overt.Core.Grpc.dll",
         "lib/net46/Overt.Core.Grpc.dll",
         "lib/netstandard2.0/Overt.Core.Grpc.dll",
-        "overt.core.grpc.1.0.3.nupkg.sha512",
+        "overt.core.grpc.1.0.3.1.nupkg.sha512",
         "overt.core.grpc.nuspec"
       ]
     },
@@ -2775,11 +2775,12 @@
       ]
     },
     "runtime.native.System.IO.Compression/4.3.0": {
-      "sha512": "b+V9JC/Ii3sR659flBeaBJww111425tgjcDS1k+hqV4sGh9FALRDBvJnDtQ895gAzpPTUOFDHdqaZ2Et7BpZMg==",
+      "sha512": "INBPonS5QPEgn7naufQFXJEp3zX6L4bwHgJ/ZH78aBTpeNfQMtf7C6VrAFhlq2xxWBveIOWyFzQjJ8XzHMhdOQ==",
       "type": "package",
       "path": "runtime.native.system.io.compression/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -2802,7 +2803,7 @@
       ]
     },
     "runtime.native.System.Security.Cryptography.Apple/4.3.0": {
-      "sha512": "DloMk88juo0OuOWr56QG7MNchmafTLYWvABy36izkrLI5VledI0rq28KGs1i9wbpeT9NPQrx/wTf8U2vazqQ3Q==",
+      "sha512": "jwjwlEL0Elv6gwoyaokRn12nv/JE+UW/DXJEbzhjCPvGbef36StnHKc9XaZD/rGWqYicrphZ7eumR/jdmNcjRg==",
       "type": "package",
       "path": "runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
@@ -2844,12 +2845,11 @@
       ]
     },
     "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "KeLz4HClKf+nFS7p/6Fi/CqyLXh81FpiGzcmuS8DGi9lUqSnZ6Es23/gv2O+1XVGfrbNmviF7CckBpavkBoIFQ==",
+      "sha512": "G2+96gYRbzp1JZCID6B+u2XJ0bs2wCubd6rE3+Tj436dKfnciF7YgsLi2VvLeJq6kxYyU4IJrVrpCvC8Yf6bhA==",
       "type": "package",
       "path": "runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -2858,7 +2858,7 @@
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple/4.3.0": {
-      "sha512": "kVXCuMTrTlxq4XOOMAysuNwsXWpYeboGddNGpIgNSZmv1b6r/s/DPk0fYMB7Q5Qo4bY68o48jt4T4y5BVecbCQ==",
+      "sha512": "Kh9W4agE0r/hK8AX1LvyQI2NrKHBL8pO0gRoDTdDb0LL6Ta1Z2OtFx3lOaAE0ZpCUc/dt9Wzs3rA7a3IsKdOVA==",
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
@@ -2899,7 +2899,7 @@
       ]
     },
     "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "ytoewC6wGorL7KoCAvRfsgoJPJbNq+64k2SqW6JcOAebWsFUvCCYgfzQMrnpvPiEl4OrblUlhF2ji+Q1+SVLrQ==",
+      "sha512": "JGc0pAWRE8lB4Ucygk2pYSKbUPLlAIq6Bczf5/WF2D/VKJEPtYlVUMxk8fbl1zRfTWzSHi+VcFZlaPlWiNxeKg==",
       "type": "package",
       "path": "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -3317,7 +3317,7 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "HZiP0DwTHJ+C+rdFqP47nBYUh5283kcwXIGY2zOVVhsJmVI/2tYiX2zNRdjRQRHsTox58Ydkec6h0pWSh8wAsw==",
+      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
@@ -5489,11 +5489,12 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.3.0": {
-      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+      "sha512": "2Z5t70a2SwMsfQDp9KOclaZNyQhfIga2gppq9lIUDM1A4ohTshn4JqT7ir8bvIhXgorWKYDAr6rPzEbi/nTGKg==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6557,7 +6558,7 @@
       "Jlion.NetCore.OrderService.Grpc >= 1.0.0",
       "Microsoft.Extensions.Hosting >= 3.1.2",
       "Microsoft.Extensions.Hosting.Abstractions >= 3.1.2",
-      "Overt.Core.Grpc >= 1.0.3"
+      "Overt.Core.Grpc >= 1.0.3.1"
     ]
   },
   "packageFolders": {
@@ -6616,7 +6617,7 @@
           },
           "Overt.Core.Grpc": {
             "target": "Package",
-            "version": "[1.0.3, )"
+            "version": "[1.0.3.1, )"
           }
         },
         "imports": [
