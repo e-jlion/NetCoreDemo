@@ -5,8 +5,14 @@ IdentityServerDemo 更名为NetCoreDemo，由于之前该仓库打算同步Ids4 
 本项目主要是同步我的博客进行一系列实践的Demo例子；后续会更新各种实践代码，包括以下技术模块
 
 - Asp.Net Core IdentityServer4 的各种应用
+  - 密码授权模式（已完成）
+  - 刷新token 方式实现（已完成）
+  - 自定义授权模式（已完成）
+  - Claim 声明（已完成）
+  - 角色授权方式实现（已完成）
 - Dapper 的实践应用
 - 微服务的实践应用
+  - 微服务应用实践初篇（已完成）
 - 服务发现的实践应用
 - Overt.Core.Grpc 开源微服务框架实践
 - Overt.Core.Data Dapper 开源框架的实践
