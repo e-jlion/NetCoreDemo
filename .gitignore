@@ -10,3 +10,8 @@
 /.vs/Jlion.NetCore.Demo/v15
 /.vs
 
+/src/identityServer4/Jlion.NetCore.Identity.Service/obj
+/src/identityServer4/Jlion.NetCore.Identity.UserApiService/obj
+/src/microService/Jlion.NetCore.OrderApiService/obj
+/src/microService/Jlion.NetCore.OrderService/obj
+/src/microService/Jlion.NetCore.OrderService.Grpc/obj

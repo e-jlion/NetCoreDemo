@@ -1,4 +1,5 @@
-﻿using Jlion.NetCore.Identity.Enums;
+﻿using IdentityModel;
+using Jlion.NetCore.Identity.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,6 +39,11 @@ namespace Jlion.NetCore.Identity.UserApiService.Extension
         public static string MerchantId(this ClaimsPrincipal @this)
         {
             return @this?.Claims?.FirstOrDefault(oo => oo.Type == EnumUserClaim.MerchantId.ToString())?.Value;
+        }
+
+        public static string Role(this ClaimsPrincipal @this)
+        {
+            return @this?.Claims?.FirstOrDefault(oo => oo.Type == JwtClaimTypes.Role.ToString())?.Value;
         }
     }
 }

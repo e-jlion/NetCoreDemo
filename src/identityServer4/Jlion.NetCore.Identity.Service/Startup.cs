@@ -51,11 +51,14 @@ namespace Jlion.NetCore.Identity.Service
                 .AddInMemoryApiResources(OAuthMemoryData.GetApiResources())
                 //.AddInMemoryClients(OAuthMemoryData.GetClients())
                 .AddClientStore<ClientStore>()
-                .AddResourceOwnerValidator<ResourceOwnerPasswordValidator>()
+                //.AddResourceOwnerValidator<ResourceOwnerPasswordValidator>()
+                .AddResourceOwnerValidator<RoleTestResourceOwnerPasswordValidator>()
                 .AddExtensionGrantValidator<WeiXinOpenGrantValidator>()
                 .AddProfileService<UserProfileService>();//添加微信端自定义方式的验证
-
             #endregion
+
+
+
 
             #region 单点登录方式 Demo
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Jlion.NetCore.Identity.Enums;
 using Jlion.NetCore.Identity.UserApiService.Extension;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -32,6 +33,22 @@ namespace Jlion.NetCore.Identity.UserApiService.Controllers
                 userId = userId,
                 displayName = User.DisplayName(),
                 merchantId = User.MerchantId(),
+                roleName = User.Role()//获得当前登录用户的角色
+            };
+        }
+
+        [Authorize(Roles =nameof(EnumUserRole.SupperManage))]
+        [HttpGet("{id}")]
+        public async Task<object> Get(int id)
+        {
+            var userId = User.UserId();
+            return new
+            {
+                name = User.Name(),
+                userId = userId,
+                displayName = User.DisplayName(),
+                merchantId = User.MerchantId(),
+                roleName=User.Role()//获得当前登录用户的角色
             };
         }
     }
