@@ -17,9 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservice", "Microservic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jlion.NetCore.OrderService", "src\microService\Jlion.NetCore.OrderService\Jlion.NetCore.OrderService.csproj", "{5C54C1A4-10A2-4A92-A21C-8B107E022885}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jlion.NetCore.OrderService.Grpc", "src\microService\Jlion.NetCore.OrderService.Grpc\Jlion.NetCore.OrderService.Grpc.csproj", "{50A468B9-1470-477F-9E54-65E9F37EE2AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jlion.NetCore.OrderService.Grpc", "src\microService\Jlion.NetCore.OrderService.Grpc\Jlion.NetCore.OrderService.Grpc.csproj", "{50A468B9-1470-477F-9E54-65E9F37EE2AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jlion.NetCore.OrderApiService", "src\microService\Jlion.NetCore.OrderApiService\Jlion.NetCore.OrderApiService.csproj", "{40436C8E-5258-437B-B944-62FC374502DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jlion.NetCore.OrderApiService", "src\microService\Jlion.NetCore.OrderApiService\Jlion.NetCore.OrderApiService.csproj", "{40436C8E-5258-437B-B944-62FC374502DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HttpClient", "HttpClient", "{C85A6604-738D-4465-B3A2-CD55C9A5DBA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jlion.NetCore.HttpClient.DemoService", "src\httpClient\Jlion.NetCore.HttpClient.DemoService\Jlion.NetCore.HttpClient.DemoService.csproj", "{92D97A15-1DB3-4DF8-B1B2-6E8D849C90EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,10 @@ Global
 		{40436C8E-5258-437B-B944-62FC374502DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40436C8E-5258-437B-B944-62FC374502DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40436C8E-5258-437B-B944-62FC374502DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92D97A15-1DB3-4DF8-B1B2-6E8D849C90EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D97A15-1DB3-4DF8-B1B2-6E8D849C90EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D97A15-1DB3-4DF8-B1B2-6E8D849C90EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D97A15-1DB3-4DF8-B1B2-6E8D849C90EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +72,8 @@ Global
 		{5C54C1A4-10A2-4A92-A21C-8B107E022885} = {33AA8D43-0134-4E4A-882C-C1445B6E5309}
 		{50A468B9-1470-477F-9E54-65E9F37EE2AE} = {33AA8D43-0134-4E4A-882C-C1445B6E5309}
 		{40436C8E-5258-437B-B944-62FC374502DE} = {33AA8D43-0134-4E4A-882C-C1445B6E5309}
+		{C85A6604-738D-4465-B3A2-CD55C9A5DBA1} = {DA1C2812-2439-4C87-BD6F-71F228182A48}
+		{92D97A15-1DB3-4DF8-B1B2-6E8D849C90EB} = {C85A6604-738D-4465-B3A2-CD55C9A5DBA1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {538FC22F-586C-43BF-9F23-F4409A67CB6F}
