@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HttpClient", "HttpClient", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jlion.NetCore.HttpClient.DemoService", "src\httpClient\Jlion.NetCore.HttpClient.DemoService\Jlion.NetCore.HttpClient.DemoService.csproj", "{92D97A15-1DB3-4DF8-B1B2-6E8D849C90EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jlion.NetCore.Identity.SSOService", "src\identityServer4\Jlion.NetCore.Identity.SSOService\Jlion.NetCore.Identity.SSOService.csproj", "{10355D67-D3AC-4F40-A9F9-1F5CEE06BA8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{92D97A15-1DB3-4DF8-B1B2-6E8D849C90EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92D97A15-1DB3-4DF8-B1B2-6E8D849C90EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92D97A15-1DB3-4DF8-B1B2-6E8D849C90EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10355D67-D3AC-4F40-A9F9-1F5CEE06BA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10355D67-D3AC-4F40-A9F9-1F5CEE06BA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10355D67-D3AC-4F40-A9F9-1F5CEE06BA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10355D67-D3AC-4F40-A9F9-1F5CEE06BA8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{40436C8E-5258-437B-B944-62FC374502DE} = {33AA8D43-0134-4E4A-882C-C1445B6E5309}
 		{C85A6604-738D-4465-B3A2-CD55C9A5DBA1} = {DA1C2812-2439-4C87-BD6F-71F228182A48}
 		{92D97A15-1DB3-4DF8-B1B2-6E8D849C90EB} = {C85A6604-738D-4465-B3A2-CD55C9A5DBA1}
+		{10355D67-D3AC-4F40-A9F9-1F5CEE06BA8B} = {80D510BD-F34F-4F1E-BA84-6B64AF9492E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {538FC22F-586C-43BF-9F23-F4409A67CB6F}

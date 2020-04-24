@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "登陆";
+}
+
+<div class="text-center">
+    <form action="/api/Login">
+        <div><label>用户名：</label><input type="text" name="userName" width="120" /></div>
+        <div><label>密  码：</label><input type="text" name="password" width="120" /></div>
+        <div><input type="submit"  value="提交"/></div>
+    </form>
+</div>

@@ -1,4 +1,5 @@
 ﻿using IdentityModel;
+using IdentityServer4;
 using IdentityServer4.Models;
 using IdentityServer4.Test;
 using Jlion.NetCore.Identity.Constants;
@@ -17,8 +18,11 @@ namespace Jlion.NetCore.Identity.Service
     /// </summary>
     public class OAuthMemoryData
     {
+       
+
+        #region API资源
         /// <summary>
-        /// 资源
+        /// Api 资源
         /// </summary>
         /// <returns></returns>
         public static IEnumerable<ApiResource> GetApiResources()
@@ -32,11 +36,13 @@ namespace Jlion.NetCore.Identity.Service
                     ),
             };
         }
+        #endregion
 
         public static IEnumerable<Client> GetClients()
         {
             return new List<Client>
             {
+                #region OAuth 2.0 Demo Client
                 new Client()
                 {
                     ClientId =OAuthConfig.UserApi.ClientId,
@@ -53,7 +59,7 @@ namespace Jlion.NetCore.Identity.Service
                     },
                     AccessTokenLifetime = OAuthConfig.ExpireIn,
                 },
-
+                #endregion
             };
         }
 
