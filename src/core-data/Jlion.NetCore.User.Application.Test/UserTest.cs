@@ -24,5 +24,12 @@ namespace Jlion.NetCore.User.Application.Test
 
             Assert.IsTrue(bl);
         }
+
+        [Test]
+        public void User_GetTest()
+        {
+            var user = userService.GetByIdAsync(1, 10001).GetAwaiter().GetResult();
+            Assert.IsTrue(user != null);
+        }
     }
 }
