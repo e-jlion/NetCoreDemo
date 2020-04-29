@@ -1,0 +1,8 @@
+D:\demo\blogGithub\src\core-data\Jlion.NetCore.User.Domain\bin\Debug\netstandard2.0\Jlion.NetCore.User.Domain.deps.json
+D:\demo\blogGithub\src\core-data\Jlion.NetCore.User.Domain\bin\Debug\netstandard2.0\Jlion.NetCore.User.Domain.dll
+D:\demo\blogGithub\src\core-data\Jlion.NetCore.User.Domain\obj\Debug\netstandard2.0\Jlion.NetCore.User.Domain.AssemblyInfoInputs.cache
+D:\demo\blogGithub\src\core-data\Jlion.NetCore.User.Domain\obj\Debug\netstandard2.0\Jlion.NetCore.User.Domain.AssemblyInfo.cs
+D:\demo\blogGithub\src\core-data\Jlion.NetCore.User.Domain\obj\Debug\netstandard2.0\Jlion.NetCore.User.Domain.csprojAssemblyReference.cache
+D:\demo\blogGithub\src\core-data\Jlion.NetCore.User.Domain\bin\Debug\netstandard2.0\Jlion.NetCore.User.Domain.pdb
+D:\demo\blogGithub\src\core-data\Jlion.NetCore.User.Domain\obj\Debug\netstandard2.0\Jlion.NetCore.User.Domain.dll
+D:\demo\blogGithub\src\core-data\Jlion.NetCore.User.Domain\obj\Debug\netstandard2.0\Jlion.NetCore.User.Domain.pdb
