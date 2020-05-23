@@ -16,6 +16,7 @@ IdentityServerDemo 更名为NetCoreDemo，由于之前该仓库打算同步Ids4 
 - 服务发现的实践应用
 - Overt.Core.Grpc 开源微服务框架实践
 - Overt.Core.Data Dapper 开源框架的实践
+   - 分库分表实践初篇（已完成）
 - DDD 领域驱动的实践
 - 消息队列
 - .Net Core 虚拟化
