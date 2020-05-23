@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Jlion.NetCore.HttpClient.DemoService.Handler;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,7 +27,21 @@ namespace Jlion.NetCore.HttpClient.DemoService
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddHttpClient();
+            //services.AddHttpClient();
+            services.AddHttpClient("test")
+                 .ConfigurePrimaryHttpMessageHandler(provider =>
+                 {
+                     var handler = new PrimaryHttpMessageHandler(provider);
+                     return handler;
+                 })
+                 .AddHttpMessageHandler(provider =>
+                 {
+                     return new LogHttpMessageHandler(provider);
+                 })
+                 .AddHttpMessageHandler(provider =>
+                 {
+                    return new Log2HttpMessageHandler(provider);
+                 });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

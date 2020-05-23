@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
+
 namespace Jlion.NetCore.HttpClient.DemoService.Controllers
 {
     [ApiController]
@@ -13,24 +14,26 @@ namespace Jlion.NetCore.HttpClient.DemoService.Controllers
     public class FirstController : ControllerBase
     {
         private readonly IHttpClientFactory _clientFactory;
+
         public FirstController(IHttpClientFactory clientFactory)
         {
             _clientFactory = clientFactory;
         }
 
-        //[HttpGet("list")]
-        //public async Task<string> GetBaiduListAsync(string url)
-        //{
-        //    for (var i = 1; i < 10; i++)
-        //    {
-        //        using (var client = new System.Net.Http.HttpClient())
-        //        {
-        //            var result = await client.GetStringAsync(url);
-        //            //return result;
-        //        }
-        //    }
-        //    return "ok";
-        //}
+        [HttpGet("test")]
+        public async Task<string> GetBaiduListAsync(string url)
+        {
+            var html = "";
+            for (var i = 0; i < 10; i++)
+            {
+                using (var client = new System.Net.Http.HttpClient())
+                {
+                   var result=await client.GetStringAsync(url);
+                    html += result;
+                }
+            }
+            return html;
+        }
 
         /// <summary>
         /// 
@@ -39,8 +42,8 @@ namespace Jlion.NetCore.HttpClient.DemoService.Controllers
         /// <returns></returns>
         public async Task<string> GetBaiduAsync(string url)
         {
-            var client = _clientFactory.CreateClient();
-            var result =await client.GetStringAsync(url);
+            var client = _clientFactory.CreateClient("test");
+            var result = await client.GetStringAsync(url);
             return result;
         }
     }
